@@ -1,0 +1,64 @@
+{
+    "name": "little100/fontawesome",
+    "description": "Upgrade Font Awesome on your forum to version 7 (Free or Pro)",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "homepage": "https://github.com/little100/flarum-ext-fontawesome",
+    "support": {
+        "issues": "https://github.com/little100/flarum-ext-fontawesome/issues",
+        "source": "https://github.com/little100/flarum-ext-fontawesome",
+        "forum": "https://discuss.flarum.org/d/31219"
+    },
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "little100",
+            "email": "little100@example.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Little100\\FontAwesome\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Font Awesome 7",
+            "category": "feature",
+            "icon": {
+                "name": "fab fa-font-awesome-flag",
+                "color": "#3a98d0",
+                "backgroundColor": "#ebf1fd"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": true,
+                "forum": true,
+                "js": true,
+                "jsCommon": true,
+                "css": true,
+                "locale": true,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": true,
+                "typescript": true,
+                "bundlewatch": false,
+                "backendTesting": false,
+                "editorConfig": true,
+                "styleci": true
+            }
+        },
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
