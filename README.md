@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of little100/fontawesome.** Not for installation: use [Packagist](https://packagist.org/packages/little100/fontawesome) or the [upstream repository](https://github.com/Little100/flarum-ext-fontawesome).
 
-**0** versions archived · Latest: [`v0.1.0`](https://github.com/flarchive/little100-fontawesome/tree/archive/v0.1.0) · License: `MIT` · Flarum: `^1.2.0`
+**1** versions archived · Latest: [`v0.1.0`](https://github.com/flarchive/little100-fontawesome/tree/archive/v0.1.0) · License: `MIT` · Flarum: `^1.2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v0.1.0` | 2026-04-18 | `^1.2.0` | [Browse](https://github.com/flarchive/little100-fontawesome/tree/archive/v0.1.0) |
 
 Catalog entry: [packages/little100-fontawesome.json](https://github.com/flarchive/archive-index/blob/main/packages/little100-fontawesome.json)
 
